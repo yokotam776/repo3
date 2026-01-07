@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## Running the Application
 
 ```bash
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
 
 The API will be available at http://localhost:8000
@@ -32,7 +32,7 @@ Interactive API documentation is available at:
 Run the tests with pytest:
 
 ```bash
-pytest test_main.py -v
+pytest tests/test_main.py -v
 ```
 
 ## Example Response
